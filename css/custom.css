@@ -90,48 +90,6 @@ line-height:1.7;
 text-align:center
 }
 
-#ibgh h1,#responsabilidade h1,#gestao h1, {
-font-size:52px;
-font-weight:900
-}
-
-#gestao {
-background-image:url(../img/bg-gestao.png);
-background-repeat:no-repeat;
-background-attachment:scroll;
-background-position:top right;
-background-size:cover;
-color:white
-}
-
-#gestao p {
-color:#878787
-}
-
-#responsabilidade {
-background-color:#e9e9f1;
-background-image:url(../img/bg-responsabilidade.png);
-background-repeat:no-repeat;
-background-attachment:scroll;
-background-position:top left;
-background-size:contain;
-color:white
-}
-
-#responsabilidade h1 {
-color:#4048b4;
-text-align:right
-}
-
-#responsabilidade p {
-text-align:right;
-color:#878787
-}
-
-#responsabilidade button {
-float:right
-}
-
 .ibgh {
 padding:30px 0;
 }
