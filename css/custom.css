@@ -1705,10 +1705,6 @@ text-align:left;
 font-style:italic
 }
 
-.page-id-390 h1,.page-id-392 h1 {
-margin-bottom:0
-}
-
 .breadcrumb {
 background:none;
 padding:8px 0
@@ -1769,6 +1765,7 @@ background:white!important;
 .input-group-addon {
 line-height: 1px !important;
 }
+
 .stylish-input-group .form-control {
 border-right:0;
 box-shadow:0 0 0;
@@ -1815,28 +1812,6 @@ line-height:24px
 
 .numeros-tabela-widget {
 width:100%
-}
-
-header .intro-text {
-padding-top:300px;
-padding-bottom:200px
-}
-
-header .intro-text .intro-lead-in {
-font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-font-style:italic;
-font-size:40px;
-line-height:40px;
-margin-bottom:25px
-}
-
-header .intro-text .intro-heading {
-font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-text-transform:uppercase;
-font-weight:700;
-font-size:75px;
-line-height:75px;
-margin-bottom:50px
 }
 
 section {
