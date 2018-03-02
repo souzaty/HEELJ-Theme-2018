@@ -384,79 +384,6 @@ padding:0!important;
 line-height:1em!important
 }
 
-.cardContainer .glyphicon {
-top:15px!important;
-display:block!important
-}
-
-.unidades .glyphicon-chevron-up:before {
-font-weight:lighter
-}
-
-.unidades .up,.unidades .down {
-border:1px solid #4e57c6;
-color:#4e57c6
-}
-
-.numeros .glyphicon-chevron-up:before {
-font-weight:lighter
-}
-
-.numeros .up,.numeros .down {
-border:1px solid #42bdf9;
-color:#42bdf9;
-font-size:16px
-}
-
-.os .glyphicon-chevron-up:before {
-font-weight:lighter
-}
-
-.os .up,.numeros .down {
-border:1px solid #3cc9f7;
-color:#3cc9f7;
-font-size:16px
-}
-
-.cardContainer a {
-color:#fff!important;
-text-decoration:none
-}
-
-.cardContainer a:hover {
-color:#fff!important;
-font-weight:bold;
-text-decoration:none
-}
-
-.cardContainer.numeros .back {
-font-size:1.5em;
-line-height:1.2em;
-text-align:center
-}
-
-.cardContainer.numeros .btn-link {
-border:1px solid #fff;
-background:transparent;
-color:#fff;
-border-radius:4px;
-font-size:.8em!important
-}
-
-.cardContainer.numeros .btn-link:hover {
-border:1px solid #fff;
-background:#fff;
-color:#4048b4!important
-}
-
-.cardContainer.os .back {
-font-size:1.1em;
-font-style:italic;
-line-height:1.5em;
-text-align:center!important;
-top:0
-}
-
 .membros .carousel-inner .active.left {
 left:-25%
 }
@@ -1264,28 +1191,6 @@ background-repeat:no-repeat;
 margin-right:12px
 }
 
-header .intro-text {
-padding-top:300px;
-padding-bottom:200px
-}
-
-header .intro-text .intro-lead-in {
-font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-font-style:italic;
-font-size:40px;
-line-height:40px;
-margin-bottom:25px
-}
-
-header .intro-text .intro-heading {
-font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-text-transform:uppercase;
-font-weight:700;
-font-size:75px;
-line-height:75px;
-margin-bottom:50px
-}
-
 section {
 padding:100px 0
 }
@@ -1319,9 +1224,6 @@ width: 65%;
 .navbar-nav {
 margin:0 -15px
 }
-#posts {
-padding:70px 0
-}
 
 h1 {
 font-size:2em
@@ -1344,43 +1246,6 @@ border:none
 
 aside.clients img {
 margin:50px auto
-}
-
-.tel,.mail,.cnpj,.place {
-margin-right:9px;
-display:inline-block
-}
-
-.tel {
-width:10px;
-height:11px;
-background-image:url(../img/tel-icon.png)
-}
-
-.mail {
-width:11px;
-height:8px;
-background-image:url(../img/mail-icon.png)
-}
-
-.cnpj {
-width:10px;
-height:8px;
-background-image:url(../img/cnpj-icon.png)
-}
-
-.place {
-width:9px;
-height:11px;
-background-image:url(../img/place-icon.png)
-}
-
-img::selection {
-background:transparent
-}
-
-img::-moz-selection {
-background:transparent
 }
 
 .ibgh-destaque a:active {
@@ -1525,6 +1390,9 @@ font-weight:600;
 font-family:'Nunito',sans-serif!important;
 font-style:italic
 }
+#posts {
+padding:70px 0
+}
 
 #posts .postTitle {
 font-size:28px;
@@ -1536,11 +1404,7 @@ margin-bottom:15px
 }
 
 #posts .postSummary,#posts .postSummary p {
-font-size:1em;
-margin-bottom:0
-}
-
-.postSummary,.postSummary p {
+margin-bottom:0;
 font-size:1em
 }
 
@@ -1793,14 +1657,6 @@ background-image:url(../img/place-icon.png)
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus {
 outline:none
-}
-
-img::selection {
-background:transparent
-}
-
-img::-moz-selection {
-background:transparent
 }
 
 .procurar-indicador-sidebar {
@@ -2746,14 +2602,6 @@ background-image:url(../img/place-icon.png)
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus {
 outline:none
-}
-
-img::selection {
-background:transparent
-}
-
-img::-moz-selection {
-background:transparent
 }
 
 abbr[data-original-title],abbr[title] {
