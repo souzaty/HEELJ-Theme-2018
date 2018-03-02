@@ -1634,44 +1634,6 @@ font-family:'Nunito',sans-serif!important;
 font-weight:900
 }
 
-.conteiner-transparencia-form {
-width:100%;
-margin-bottom:20px;
-padding:35px 30px;
-background:#0072a4;
-color:#fff
-}
-
-.conteiner-transparencia-form h4 {
-font-size:1.5em;
-line-height:1.4em
-}
-
-.conteiner-transparencia-form p,p.conteiner-transparencia-form {
-margin-top:20px;
-font-size:1.1em;
-line-height:1.3em
-}
-
-.subtitulo-transparencia {
-margin-top:0;
-font-size:1.1em;
-line-height:1.3em
-}
-
-.transparencia-form {
-background:transparent;
-border:1px solid #fff;
-color:#fff;
-margin-top:20px
-}
-
-.transparencia-form:focus {
-background:transparent;
-border:1px solid #fff;
-color:#fff
-}
-
 .result-arrow {
 width:100%;
 height:24px;
