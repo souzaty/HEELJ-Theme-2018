@@ -1,0 +1,150 @@
+/*
+ * @package WordPress
+ * @subpackage HEELJ
+ * @since HEELJ 1.0 Beta
+*/
+
+/* ===== Default Fonts ===== */
+body {
+overflow-x:hidden;
+font-family:'Nunito',sans-serif;
+color:#777777
+}
+
+body p {
+font-size:1.2em
+}
+
+.text-primary {
+color:#fed136
+}
+
+p {
+font-size:14px;
+line-height:1.75
+}
+
+p.large {
+font-size:16px
+}
+
+a,a:hover,a:focus,a:active,a.active {
+outline:none;
+text-decoration:none
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family:'Nunito',sans-serif!important;
+font-weight:700
+}
+
+h1 {
+text-align:center;
+color:#073b5a;
+font-size:3.5em;
+margin:25px 0;
+font-family:'Nunito',sans-serif;
+font-weight:800
+}
+
+h3 {
+color:#073b5a;
+font-size:2em;
+margin-top:30px;
+margin-bottom:20px;
+font-family:'Nunito',sans-serif;
+font-weight:800
+}
+
+/* ===== Resize Bootstrap Rows Spaces ===== */
+
+.no-gutter {
+padding-right:0;
+padding-left:0
+}
+
+.no-gutter-right {
+padding-left:0
+}
+
+.gutter-30 {
+padding-right:30px;
+padding-left:30px
+}
+
+.no-gutter-30-right {
+padding-left:0
+}
+
+.no-gutter-30-left {
+padding-right:0
+}
+
+/* 20px gutter */
+.gutter-20.row {
+margin-right:-10px;
+margin-left:-10px
+}
+
+.gutter-20 > [class^="col-"],.gutter-20 > [class^=" col-"] {
+padding-right:10px;
+padding-left:10px
+}
+
+/* 10px gutter */
+.gutter-10.row {
+margin-right:-5px;
+margin-left:-5px
+}
+
+.gutter-10 > [class^="col-"],.gutter-10 > [class^=" col-"] {
+padding-right:5px;
+padding-left:5px
+}
+
+/* 0px gutter */
+.row.gutter-0 {
+margin-left:0;
+margin-right:0;
+padding-left:0;
+padding-right:0
+}
+
+.gutter-0.container {
+padding-right:0;
+padding-left:0
+}
+
+.gutter-0 > [class^="col-"],.gutter-0 > [class^=" col-"] {
+padding-right:0;
+padding-left:0
+}
+
+/* ===== Stylize scrollbar ===== */
+
+::-webkit-scrollbar {
+background-color:transparent;
+width:6px
+}
+
+::-webkit-scrollbar-thumb {
+background-color:#4750be
+}
+
+::-webkit-scrollbar {
+width:8px
+}
+
+::-webkit-scrollbar-thumb {
+background:rgba(198,198,198,1)
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+background:rgba(198,198,198,1)
+}
+
+.thumb-related-post {
+    width: 100%;
+    height: auto;
+    max-height: 203px;
+}

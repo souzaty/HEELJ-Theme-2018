@@ -1,0 +1,62 @@
+/*
+ * @package WordPress
+ * @subpackage HEELJ
+ * @since HEELJ 1.0 Beta
+*/
+
+/* ===== Page 404 Styles ===== */
+.error-wrapper {
+  height: 100%;
+  background-color: #1a63af;
+  background-image: url(../img/background-error.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error-title {
+  font-size: 6em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.error-subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1FA9D6;
+}
+
+.error-buttons {
+  margin: 30px;
+}
+
+.error-buttons a.error-button {
+  font-weight: 700;
+  border: 2px solid #fff;
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 26px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.error-buttons a.error-button:hover {
+  background-color: #fff;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,77 @@
+/*
+ * @package WordPress
+ * @subpackage HEELJ
+ * @since HEELJ 1.0 Beta
+*/
+
+/* ===== Footer Styles ===== */
+
+footer #heelj-footer {
+padding:50px 0;
+color:#fff;
+background:#0072a4
+}
+
+footer ul {
+padding-left:0;
+margin-top:30px
+}
+
+footer span.copyright {
+line-height:40px;
+font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform:uppercase
+}
+
+footer h4 {
+text-transform:uppercase
+}
+
+footer a {
+color:#fff
+}
+
+footer a:hover {
+color:#fff;
+font-weight:800;
+text-decoration:underline
+}
+
+footer p {
+font-size:1em;
+margin:10px 0
+}
+
+footer .box {
+padding:20px 0!important;
+margin:0 auto;
+display:block;
+overflow:hidden;
+height:90px
+}
+
+footer .box p {
+font-size:1em;
+margin:0 0 0 10px
+}
+
+.footer-menu {
+list-style-image:url(../img/arrow-list.png);
+list-style-position:inside;
+margin:10px 0;
+font-size:1em;
+transition:all 1s
+}
+
+.footer-menu:hover {
+list-style-image:url(../img/arrow-list.png)
+}
+
+.footer-menu ul>li {
+padding: 6px 0 !important;
+}
+/* ===== Footer Widget Styles ===== */
+aside#text-7, aside#custom_html-2 {
+    margin-top: -42px;
+    padding: 0;
+}

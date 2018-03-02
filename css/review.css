@@ -1,0 +1,59 @@
+/*
+ * @package WordPress
+ * @subpackage HEELJ
+ * @since HEELJ 1.0 Beta
+*/
+
+/* ===== Define importance of these classes ===== */
+.animation {
+transition:all .3s ease
+}
+
+.cardContainer {
+transition:all .3s ease;
+perspective:800px;
+padding-left:1%
+}
+
+.secondRow {
+margin-top:-1.4%
+}
+
+.card {
+width:99%;
+height:200px;
+cursor:pointer;
+-webkit-transform: transform .6s;
+-moz-transform: transform .6s;
+-ms-transform: transform .6s;
+-o-transform: transform .6s;
+transition: transform .6s;
+transform-style:preserve-3d
+}
+
+.card.flipped {
+transform:rotateY(180deg)
+}
+
+.card .front,.card .back {
+display:block;
+height:100%;
+width:100%;
+line-height:60px;
+color:white;
+text-align:center;
+font-size:3em;
+position:absolute;
+backface-visibility:hidden;
+font-style:italic
+}
+
+.card .back {
+width:100%;
+padding-left:15%;
+padding-right:15%;
+font-size:16px;
+text-align:left;
+line-height:25px;
+transform:rotateY(180deg)
+}
