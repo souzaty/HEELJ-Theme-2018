@@ -2,6 +2,8 @@
 @import "global.css";
 /* Navbar Theme Styles */
 @import "navbar.css";
+/* Color Theme Styles */
+@import "colors.css";
 /* Buttons Theme Styles */
 @import "buttons.css";
 /* Review Theme styles */
@@ -1689,22 +1691,6 @@ background:#0990d8;
 background:-moz-linear-gradient(left,#0990d8 0%,#18226d 100%);
 background:-webkit-linear-gradient(left,#0990d8 0%,#18226d 100%);
 background:linear-gradient(to right,#0990d8 0%,#18226d 100%)
-}
-
-.light-blue {
-color:#21b9eb
-}
-
-.middle-blue {
-color:#009ee4
-}
-
-.dark-blue {
-color:#0072a4
-}
-
-.purple {
-color:#4048b4
 }
 
 .missao p,.visao p,#myCarousel p {
