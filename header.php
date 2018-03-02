@@ -18,6 +18,15 @@
         <?php wp_enqueue_script("jquery");?>
 		<?php wp_head(); ?>
         <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/js/template.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115028585-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-115028585-1');
+        </script>
 	</head>
 	<body <?php body_class(); ?> >
         <!-- ### Menu Principal ### -->
