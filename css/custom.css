@@ -34,16 +34,12 @@ background-color:#222222
 }
 
 .clearHeader {
-margin-top:0;
 width:100%;
-background: #fff;
 position:fixed!important;
-z-index:9999;
-color:#fff !important
-}
-
-.darkHeader .teste,.darkHeader .teste a {
-color:#004b77!important
+background: #fff;
+margin-top:0;
+color:#fff !important;
+z-index:9999
 }
 
 .darkHeader {
