@@ -1305,15 +1305,7 @@ font-weight:400;
 margin-bottom:75px
 }
 
-.service-heading {
-margin:15px 0;
-text-transform:none
-}
-
 @media (max-width: 768px) {
-.ibgh {
-padding: 10px 0;
-}
 .ghost {
 display: none !important;
 }
@@ -1323,10 +1315,6 @@ margin-top:0;
 .navbar-brand {
 width: 65%;
 }
-.container-logo {
-float:left;
-width:80%;
-}
 
 .navbar-nav {
 margin:0 -15px
@@ -1335,16 +1323,8 @@ margin:0 -15px
 padding:20px 0
 }
 
-#gestao {
-background-image:none
-}
-
 h1 {
 font-size:2em
-}
-
-#responsabilidade {
-background-image:none
 }
 
 .slider {
