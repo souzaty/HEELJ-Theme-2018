@@ -90,13 +90,6 @@ text-align:center
 padding:40px 15px 0
 }
 
-
-
-img.attachment-noticias-home-ibgh.size-noticias-home-ibgh.wp-post-image {
-width: 100% !important;
-height: auto !important;
-}
-
 figure.gallery-item {
 display: inline-block;
 margin: 20px;
@@ -136,14 +129,6 @@ padding:10px 0
 .navbar-custom.affix .navbar-brand {
 font-size:1.5em
 }
-}
-
-.slide-principal-ibgh {
-background-repeat:no-repeat;
-background-attachment:scroll;
-background-position:top center;
-background-size:cover;
-color:white
 }
 
 header .intro-text {
