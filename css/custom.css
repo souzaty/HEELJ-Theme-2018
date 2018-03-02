@@ -752,15 +752,6 @@ background-position:center center
 background-position:center right
 }
 
-#services {
-padding:70px 0
-}
-
-#services h1 {
-color:#21b9eb;
-text-align:center
-}
-
 .intro-service {
 margin:40px 0 0
 }
@@ -1327,6 +1318,7 @@ font-weight:600;
 font-family:'Nunito',sans-serif!important;
 font-style:italic
 }
+
 #posts {
 padding:70px 0
 }
@@ -2620,6 +2612,15 @@ margin-left:5px
 border-bottom:1px solid #f2f2f2!important
 }
 
+#services {
+padding:70px 0
+}
+
+#services h1 {
+color:#21b9eb;
+text-align:center
+}
+
 #services .tab-content {
 padding-left:40px
 }
@@ -2661,10 +2662,4 @@ padding-left: 0;
 margin-bottom: 0;
 list-style: none;
 border-right: 1px solid #f2f2f2;
-}
-
-.gestao-ibgh a{
-width: 100%;
-display: inline-block;
-height: 100%;
 }
