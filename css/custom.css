@@ -1634,25 +1634,6 @@ font-family:'Nunito',sans-serif!important;
 font-weight:900
 }
 
-.result-arrow {
-width:100%;
-height:24px;
-background:url(../img/resuldato_busca.png);
-background-repeat:no-repeat;
-background-position:center center;
-margin:20px 0
-}
-
-.resultado {
-width:100%;
-padding:20px 0 15px;
-border-bottom:1px solid #ccc
-}
-
-.resultado:hover {
-background:#fcfcfc
-}
-
 .clock,.tag {
 width:17px;
 height:15px;
