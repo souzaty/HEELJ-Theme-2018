@@ -5,6 +5,13 @@
 */
 
 /* ===== Buttons CSS ===== */
+.btn.btn-sm.btn-link {
+color: #0b448f !important;
+}
+
+a.btn.btn-sm.btn-default {
+color: #ffffff !important;
+}
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus {
 outline:none
