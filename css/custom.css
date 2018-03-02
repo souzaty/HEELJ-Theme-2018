@@ -1693,39 +1693,6 @@ background:-webkit-linear-gradient(left,#0990d8 0%,#18226d 100%);
 background:linear-gradient(to right,#0990d8 0%,#18226d 100%)
 }
 
-.missao p,.visao p,#myCarousel p {
-color:#fff;
-text-align:center;
-padding-left:15px
-}
-
-.white {
-color:#fff;
-text-align:left;
-padding-left:15px
-}
-
-.carousel-control {
-top:50%
-}
-
-#myCarousel .fa {
-display:inline-block;
-font-family:FontAwesome;
-font-style:normal;
-font-weight:normal;
-line-height:1;
-font-size:25px;
-color:#fff!important;
-text-shadow:none;
-opacity:1
-}
-
-.carousel-control.left,.carousel-control.right {
-color:#fff;
-opacity:1
-}
-
 #posts {
 padding:70px 0
 }
