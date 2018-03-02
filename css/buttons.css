@@ -6,11 +6,11 @@
 
 /* ===== Buttons CSS ===== */
 .btn.btn-sm.btn-link {
-color: #0b448f !important;
+color:#0b448f !important;
 }
 
 a.btn.btn-sm.btn-default {
-color: #ffffff !important;
+color:#ffffff !important;
 }
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus {
@@ -18,61 +18,61 @@ outline:none
 }
 
 .btn-white {
-border:1px solid #fff;
 background:transparent;
-color:#fff
+color:#fff;
+border:1px solid #fff;
 }
 
 .btn-white:hover {
-border:1px solid #fff;
 background:#fff;
-color:#4048b4
+color:#4048b4;
+border:1px solid #fff;
 }
 
 .btn-blue {
-border:1px solid #0072a4;
 background:transparent;
-color:#0072a4!important
+color:#0072a4!important;
+border:1px solid #0072a4;
 }
 
 .btn-blue:hover {
-border:1px solid #009ee4;
 background:#009ee4;
-color:#fff!important
+color:#fff!important;
+border:1px solid #009ee4;
 }
 
 .btn-blue-fill {
-border:1px solid #009ee4;
 background:#009ee4;
-color:#fff
+color:#fff;
+border:1px solid #009ee4;
 }
 
 .btn-blue-fill:hover {
-border:1px solid #4048b4;
 background:#4048b4;
-color:#fff
+color:#fff;
+border:1px solid #4048b4;
 }
 
 .btn-purple {
-border:1px solid #4048b4;
 background:transparent;
-color:#4048b4
+color:#4048b4;
+border:1px solid #4048b4;
 }
 
 .btn-purple:hover {
-border:1px solid #4048b4;
 background:#4048b4;
-color:#fff
+color:#fff;
+border:1px solid #4048b4;
 }
 
 .btn-purple-fill {
-border:1px solid #4048b4;
 background:#4048b4;
-color:#fff
+color:#fff;
+border:1px solid #4048b4;
 }
 
 .btn-purple-fill:hover {
-border:1px solid #073b5a;
 background:#073b5a;
-color:#fff
+color:#fff;
+border:1px solid #073b5a;
 }
