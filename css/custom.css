@@ -1346,10 +1346,6 @@ aside.clients img {
 margin:50px auto
 }
 
-section#gestao {
-color:#009ee4
-}
-
 .tel,.mail,.cnpj,.place {
 margin-right:9px;
 display:inline-block
@@ -1379,10 +1375,6 @@ height:11px;
 background-image:url(../img/place-icon.png)
 }
 
-.btn:focus,.btn:active,.btn.active,.btn:active:focus {
-outline:none
-}
-
 img::selection {
 background:transparent
 }
@@ -1391,91 +1383,8 @@ img::-moz-selection {
 background:transparent
 }
 
-.gestao-ibgh {
-text-align:center;
-padding:13px;
-position:relative;
-background:#ffffff;
-box-shadow:0 3px 5px 0 rgba(0,0,0,0.12);
-z-index:999
-}
-
-.gestao-ibgh p {
-line-height:0;
-width:100%;
-margin:auto;
-text-align:center;
-display:table
-}
-
-.gestao-ibgh:after,.gestao-ibgh:before {
-top:100%;
-left:50%;
-border:solid transparent;
-content:" ";
-height:0;
-width:0;
-position:absolute
-}
-
-.gestao-ibgh:after {
-border-color:rgba(136,183,213,0);
-border-width:10px;
-margin-left:-10px
-}
-
-.gestao-ibgh:before {
-border-color:rgba(194,225,245,0);
-border-width:20px;
-margin-left:-20px
-}
-
-.gestao-ibgh .fa {
-color:#0072a4;
-padding:5px;
-border:1px solid #0072a4;
-border-radius:100%;
-width:20px;
-height:20px
-}
-
-.gestao-ibgh .fa-info {
-font-size:10px
-}
-
-.gestao-ibgh span {
-color:#5a5a5a;
-font-family:'Nunito',sans-serif;
-font-size:14px
-}
-
 .ibgh-destaque a:active {
 background-color:yellow
-}
-
-#menuibghescondido .btn-link {
-color:#0b448f;
-font-size:14px!important;
-font-weight:600!important;
-border:1px solid #0b448f;
-border-radius:4px;
-padding-left:20px!important;
-padding-right:20px!important
-}
-
-#menuibghescondido .btn-default {
-color:#ffffff;
-background:#0b448f;
-font-size:14px!important;
-font-weight:600!important;
-border:1px solid #0b448f;
-border-radius:4px;
-padding-left:20px!important;
-padding-right:20px!important
-}
-
-#menuibghescondido .btn-default:hover {
-text-decoration:underline
 }
 
 .separator-duplo {
