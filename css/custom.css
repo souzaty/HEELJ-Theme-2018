@@ -594,10 +594,6 @@ color:white
 background:#0072a4!important
 }
 
-.clearColor {
-color:#fff!important
-}
-
 .navbar-default .navbar-nav>li.clearColor>a {
 color:#fff!important;
 font-family:'Nunito',sans-serif;
