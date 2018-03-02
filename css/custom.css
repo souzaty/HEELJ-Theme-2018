@@ -672,6 +672,15 @@ background:linear-gradient(to right,#0072a4 49%,#3ecfa4 51%);
 overflow:hidden
 }
 
+#destaque-heelj a {
+color:#fff;
+text-decoration:none
+}
+
+#destaque-heelj p,.widgetContainer p {
+color:#fff!important
+}
+
 .tel-destaque,.local-destaque,.atendimento-destaque {
 min-height:110px
 }
@@ -697,6 +706,7 @@ padding: 25px 0;
 .box-header {
 padding: 0 !important;
 }
+
 #bs-example-navbar-collapse-1 .box {
 margin:0 auto;
 display:table;
@@ -866,54 +876,6 @@ margin-bottom:15px
 font-size:1em;
 display:block;
 margin-bottom:20px
-}
-
-.logo-heelj {
-background-image:url(../img/heelj-new-logo-color.png);
-background-size:contain;
-background-repeat:no-repeat;
-width:35%;
-min-height:60px;
-padding:20px 75px;
-display:block;
-margin-left:20px;
-float:left
-}
-
-.logo-sus {
-background-image:url(../img/sus.png);
-background-size:contain;
-background-repeat:no-repeat;
-width:15%;
-min-height:60px;
-padding:20px 5px;
-display:block;
-margin-left:6px;
-float:left
-}
-
-.logo-secretaria {
-background-image:url(../img/secretaria.png);
-background-size:contain;
-background-repeat:no-repeat;
-width:20%;
-min-height:60px;
-padding:20px 5px;
-display:block;
-float:left;
-margin-left:6px
-}
-
-.logo-governo {
-background-image:url(../img/governo.png);
-background-size:contain;
-background-repeat:no-repeat;
-width:15%;
-min-height:60px;
-padding:20px 5px;
-display:block;
-float:left;
-margin-left:10px
 }
 
 .navbar-custom-heelj .navbar-header {
@@ -1259,10 +1221,7 @@ margin-left:0;
 padding-left:0
 }
 
-#destaque-heelj a {
-color:#fff;
-text-decoration:none
-}
+
 
 .intro-service h1 {
 color:#21b9eb!important
@@ -2658,10 +2617,6 @@ padding-bottom:0
 font-weight:400;
 color:#878787;
 font-size:22px
-}
-
-#destaque-heelj p,.widgetContainer p {
-color:#fff!important
 }
 
 .numeros-tabela-widget p {
