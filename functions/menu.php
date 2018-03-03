@@ -1,7 +1,5 @@
 <?php
-/* Registra os menus para template */
-
-/**
+/** Register Theme Menus
  * @package WordPress
  * @subpackage HEELJ
  * @since HEELJ 1.0 Beta

@@ -1,7 +1,5 @@
 <?php
-    /* Custom Post Types Theme */
-
-/**
+/** Theme Custom Post Types
  * @package WordPress
  * @subpackage HEELJ
  * @since HEELJ 1.0 Beta
@@ -78,8 +76,7 @@
  	update_post_meta($post->ID, "corpo_crm", $_POST["corpo_crm"]);
  }
  // End CPT Corpo Clínico
- // **
- // **
+
  // Start CPT Serviços
  add_action('init', 'servicos_heelj');
  function servicos_heelj() {
@@ -180,23 +177,7 @@
  	update_post_meta($post->ID, "link_info_servico_heelj", $_POST["link_info_servico_heelj"]);
  }
  // End CPT Serviços
-// **
-// **
 
-function the_excerpt_lenght($before = '', $after = '', $echo = true, $length = false)
-{
-				$excerpt = get_the_excerpt();
-				if ($length && is_numeric($length)) {
-								$excerpt = substr($excerpt, 0, $length);
-				}
-				if (strlen($excerpt) > 0) {
-								$excerpt = apply_filters('the_excerpt_lenght', $before . $excerpt . $after, $before, $after);
-								if ($echo)
-												echo $excerpt;
-								else
-												return $excerpt;
-				}
-}
 // Start CPT Trabalhe Conosco
 add_action('init', 'trabalhe_register');
 function trabalhe_register()
@@ -430,3 +411,19 @@ function trabalhe_custom_columns($column)
 				}
 }
 // End CPT Trabalhe Conosco
+
+// Start Excerpt Lenght
+function the_excerpt_lenght($before = '', $after = '', $echo = true, $length = false)
+{
+				$excerpt = get_the_excerpt();
+				if ($length && is_numeric($length)) {
+								$excerpt = substr($excerpt, 0, $length);
+				}
+				if (strlen($excerpt) > 0) {
+								$excerpt = apply_filters('the_excerpt_lenght', $before . $excerpt . $after, $before, $after);
+								if ($echo)
+												echo $excerpt;
+								else
+												return $excerpt;
+				}
+}

@@ -1,7 +1,5 @@
 <?php
-    /* Shotcodes Theme */
-
-/**
+/** Theme Shortcodes
  * @package WordPress
  * @subpackage HEELJ
  * @since HEELJ 1.0 Beta
