@@ -18,13 +18,17 @@ function load_scripts() {
     }
     add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
-// Adiciona funções HEELJ ao Template
+// Add Functions
 require_once 'functions/heelj.php';
 require_once 'functions/menu.php';
 require_once 'functions/cpt.php';
 require_once 'functions/shortcodes.php';
 
-// Custom $logo
+// Pagination
+require_once('wp_bootstrap_pagination.php');
+
+// Start Theme Supports
+/***** Custom Logo *****/
 function themename_custom_logo_setup() {
 $defaults = array(
     'height'      => 90,
@@ -37,10 +41,10 @@ add_theme_support( 'custom-logo', $defaults );
 }
 add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
-// habilita o tema para gerar feed
+/***** Enable feed *****/
 add_theme_support('automatic-feed-links');
 
-// Configura os tamanhos
+/***** Config Thumbs Size  *****/
 add_theme_support('post-thumbnails');
 add_filter('jpeg_quality', create_function('', 'return 100;'));
 set_post_thumbnail_size(825, 510, true);
@@ -50,7 +54,7 @@ add_image_size('servicos-heelj', 80, 80, true);
 add_image_size('noticias-home-heelj', 366, 232, true);
 add_image_size('corpo-clinico', 115, 115, true);
 
-// Adiciona suporte a html 5
+/****** Enable HTML5 *****/
 add_theme_support('html5', array(
 				'search-form',
 				'comment-form',
@@ -59,7 +63,7 @@ add_theme_support('html5', array(
 				'caption'
 ));
 
-// Adicona suporte a vários tipos de posts
+/****** Add Post Formats *****/
 add_theme_support('post-formats', array(
 				'aside',
 				'image',
@@ -71,9 +75,10 @@ add_theme_support('post-formats', array(
 				'audio',
 				'chat'
 ));
-// Changing excerpt length to 20 words
-/**
- *
+// End Theme Support
+
+// Start Custom Excerpt
+/** Changing excerpt length to 20 words
  * @param int $length Excerpt length.
  * @return int (Maybe) modified excerpt length.
  */
@@ -81,8 +86,9 @@ function wpdocs_custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 120 );
+// End Custom Excerpt
 
-// Nav menu
+// Start Nav menu
 add_filter('wp_nav_menu_items', 'add_search_box_to_menu', 10, 2);
 function add_search_box_to_menu($items, $args)
 {
@@ -90,11 +96,12 @@ if ($args->theme_location == 'menu_topo_ibgh')
 				return $items . "<li class='menu-header-search'><a href='https://www.facebook.com/ibgh.os/?fref=ts' target='_blank'><span class='fa fa-facebook'></span></a></li><li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-31'><form role='search' method='get' class='search-form' action='" . esc_url(home_url('/')) . "'><div class='box box-header'>  <div class='container-2'><span class='icon'><i class='fa fa-search'></i></span><input type='search' id='search' placeholder='pesquisar...' value='" . get_search_query() . "' name='s' /></div></div></form></li>";
 return $items;
 }
+// End Nav menu
 
 // Enable the use of shortcodes in text widgets.
 add_filter('widget_text', 'do_shortcode');
 
-// INÍCIO CUSTOM POST INDICADORES
+// Start  CPT Indicadores
 add_action('init', 'indicadores_ibgh');
 function indicadores_ibgh() {
 	$labels = array(
@@ -228,12 +235,9 @@ function save_details_post_indicadores_ibgh() {
 	update_post_meta($post->ID, "data_acumulado_heelj", $_POST["data_acumulado_heelj"]);
 	update_post_meta($post->ID, "frase_heelj", $_POST["frase_heelj"]);
 }
-// FIM CUSTOM POST INDICADORES
+// End CPT Indicadores
 
-/* PAGINAÇÃO */
-require_once('wp_bootstrap_pagination.php');
-
-// INICIO BREADCRUMBS WORDPRESS
+// Start WP Breadcrumbs
 function wp_custom_breadcrumbs()
 {
 				$showOnHome  = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
@@ -331,9 +335,9 @@ function wp_custom_breadcrumbs()
 								echo '</div>';
 				}
 }
-// FIM BREADCRUMBS WORDPRESS
+// End WP Breadcrumbs
 
-//Styling wp-login page
+// Start Customize wp-login Page
 function login_styles() { ?>
  <style type="text/css">
  body {
@@ -383,16 +387,16 @@ function login_styles() { ?>
 
 add_action('login_enqueue_scripts', 'login_styles', 10);
 
-// Link logo login
+/***** URL Logo Login *****/
 function my_login_logo_url() {
     return get_bloginfo( 'url' );
 }
 add_filter( 'login_headerurl', 'my_login_logo_url' );
 
-// Mudar nome ao passar o mouse
+/***** Change Alt Attribute *****/
 function my_login_logo_url_title() {
     return 'HEELJ - Hospital Estadual Ernestina Lopes Jaime.';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
-
+// End Customize wp-login Page
 ?>
