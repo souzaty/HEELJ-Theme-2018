@@ -2,7 +2,7 @@
 	/* Template Name: Página Padrão */
 ?>
 <div id="pagina-interna-heelj">
-		<?php get_header(); ?> <h1>HOME MESMO</h1>
+		<?php get_header(); ?>
 </div>
 <section class="title-page">
 	<div class="container">
