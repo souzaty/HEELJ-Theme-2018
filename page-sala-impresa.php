@@ -20,18 +20,11 @@
 					<?php wp_custom_breadcrumbs(); ?>
 				</div>
 				<!-- End Breadcrumb -->
-				<div class="row">
-					<div class="col-lg-12">
-						<!-- SEARCH -->
-						<?php include 'includes/search-sala_imprensa.php'; ?>
-						<!-- /input-group -->
-					</div>
-				</div>
 				<!-- Main Blog Content -->
 				<?php global $post; $pesquisa_imprensa = trim($_GET['pesquisa_imprensa']);
 					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 					$wp_query = new WP_Query();
-					$wp_query->query('s='. $pesquisa_imprensa.'&post_type=post&cat=36&orderby=date&order=DESC&posts_per_page=8&paged=' . $paged);
+					$wp_query->query('s='. $pesquisa_imprensa.'&post_type=post&cat=41&orderby=date&order=DESC&posts_per_page=8&paged=' . $paged);
 					 ?>
 				<?php if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();?>
 				<div class="postResume">
