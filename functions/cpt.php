@@ -28,7 +28,7 @@
  		'publicly_queryable' => true,
  		'show_ui' => true,
  		'query_var' => true,
- 		'menu_icon' => 'dashicons-admin-users',
+ 		'menu_icon' => 'dashicons dashicons-id',
  		'capability_type' => 'post',
  		'hierarchical' => false,
  		'menu_position' => 6,
