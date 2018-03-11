@@ -2,7 +2,7 @@
 
 ## Wordpress Theme for _Hospital Estadual de Pirenópolis Ernestina Lopes Jaime_
 
-**versão:** 1.0
+**version:** 1.0
 
 ------
 
