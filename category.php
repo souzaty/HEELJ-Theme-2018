@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: Category PHP */ 
+/* Template Name: Category PHP */ 
 ?>
 <?php
 	global $post;
