@@ -38,12 +38,12 @@
 
 # Required Plugins
 
-## These are the necessary plugins for the template implementation, with the correct configuration of the layout.
+These are the necessary plugins for the template implementation, with the correct configuration of the layout.
 
-### Bootstrap Shortcodes
+## Bootstrap Shortcodes
 
-### Caldera Formats
+## Caldera Formats
 
-### Share Buttons by AddThis
+## Share Buttons by AddThis
 
-### Slider Revolution
+## Slider Revolution
