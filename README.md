@@ -34,7 +34,7 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 **[pesquisa_sidebar]:** search field
 
-**[numeros-hospital]:** Description..
+**[numeros-hospital]:** does not appear in mobile version
 
 **[indicadores_heelj]:** Description..
 
