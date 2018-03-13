@@ -5,12 +5,6 @@
  * @since HEELJ 1.0 Beta
  */
 
-add_filter('wp_nav_menu_items', 'add_search_box_to_menu_heelj', 10, 2);
-function add_search_box_to_menu_heelj($items, $args) {
-	if ($args->theme_location == 'menu_topo_heelj')
-		return $items . "<li class='menu-header-search navbar-custom-hospital clearColor'><a href='https://www.facebook.com/ibgh.os/?fref=ts' target='_blank'><span class='fa fa-facebook'></span></a></li><li class='menu-item menu-item-type-custom menu-item-object-custom menu-item-31 navbar-custom-hospital clearColor'><form role='search' method='get' class='search-form' action='" . esc_url(home_url('/')) . "'><div class='box box-header navbar-custom-hospital clearColor'>  <div class='container-2'><span class='icon'><i class='fa fa-search'></i></span><input class='navbar-custom-hospital clearColor' type='search' id='search' placeholder='pesquisar...' value='" . get_search_query() . "' name='s' /></div></div></form></li>";
-	return $items;
-}
 
 // Start Widgets
 register_sidebar(array(
