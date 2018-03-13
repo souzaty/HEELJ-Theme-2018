@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: SAU */
+	/* Template Name: Página SAU */
 ?>
 <div id="pagina-interna-heelj">
 		<?php get_header(); ?>
