@@ -20,6 +20,24 @@
 
 ## Shortcodes
 
+Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
+
+**[noticias_home_heelj]** Description..
+
+**[contato_sidebar]** Description..
+
+**[contato_home]** Description..
+
+**[servicos_heelj]** Description..
+
+**[pesquisa_sidebar]** Description..
+
+**[numeros-hospital]** Description..
+
+**[indicadores_heelj]** Description..
+
+**[indicadores_sidebar]** Description..
+
 ## Page Templates
 
 **Página de Notícias (_page-blog.php_):** Description..
