@@ -145,8 +145,8 @@
  add_action('init', 'servicos_heelj');
  function servicos_heelj() {
  	$labels = array(
- 		'name' => __('Serviços HEELJ', 'Tipo de post para incluir os serviços do HEELJ.'),
- 		'singular_name' => __('serviços HEELJ', 'post type singular name'),
+ 		'name' => __('Serviços', 'Tipo de post para incluir os serviços do hospital.'),
+ 		'singular_name' => __('serviços', 'post type singular name'),
  		'all_items' => __('Todos os serviços'),
  		'add_new' => _x('Novo serviço', 'Novo serviço'),
  		'add_new_item' => __('Add novo serviço'),
@@ -246,7 +246,7 @@
  add_action('init', 'corpo_clinico_heelj_register');
  function corpo_clinico_heelj_register() {
  	$labels = array(
- 		'name' => __('Corpo Cl&iacute;nico HEELJ', 'Tipo de post para incluir os profissionais do HEELJ.'),
+ 		'name' => __('Corpo Cl&iacute;nico', 'Tipo de post para incluir os profissionais do hospital.'),
  		'singular_name' => __('Corpo Cl&iacute;nico', 'post type singular name'),
  		'all_items' => __('Todos profissionais'),
  		'add_new' => _x('Novo profissional', 'Novo profissional'),
