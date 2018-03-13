@@ -17,3 +17,9 @@
 **Serviços:** Inclusion of all medical specialties available in the hospital
 
 **Trabalhe Conosco:** Inclusion of notices for the hiring of new employees
+
+## Page Templates
+
+**Página de Notícias (_page-blog.php_):** Página de notícias
+
+**Página de Contato (_page-contato.php_):** Página de fale conosco
