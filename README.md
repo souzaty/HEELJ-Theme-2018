@@ -60,7 +60,7 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 ---
 
-# _Required Plugins_
+## _Required Plugins_
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.
 
@@ -74,4 +74,4 @@ _[**Slider Revolution:**](https://revolution.themepunch.com)_ Description..
 
 ---
 
-# _Other Plugins_
+## _Other Plugins_
