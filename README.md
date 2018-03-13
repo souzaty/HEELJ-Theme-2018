@@ -60,6 +60,10 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 ---
 
+## _Sidebars_
+
+---
+
 ## _Required Plugins_
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.

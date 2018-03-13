@@ -41,7 +41,7 @@ register_sidebar(array(
 	'after_title' => '</h4>'
 ));
 register_sidebar(array(
-	'name' => 'HEELJ Footer 1',
+	'name' => 'Footer 1',
 	'id' => 'heelj-footer-sidebar-1',
 	'description' => 'Exibido no rodapé do tema na coluna 1',
 	'before_widget' => '<aside id="%1$s" class="widget %2$s footer-menu">',
@@ -50,7 +50,7 @@ register_sidebar(array(
 	'after_title' => '</h4>'
 ));
 register_sidebar(array(
-	'name' => 'HEELJ Footer 2',
+	'name' => 'Footer 2',
 	'id' => 'heelj-footer-sidebar-2',
 	'description' => 'Exibido no rodapé do tema na coluna 2',
 	'before_widget' => '<aside id="%1$s" class="widget %2$s footer-menu">',
@@ -59,7 +59,7 @@ register_sidebar(array(
 	'after_title' => '</h4>'
 ));
 register_sidebar(array(
-	'name' => 'HEELJ Footer 3',
+	'name' => 'Footer 3',
 	'id' => 'heelj-footer-sidebar-3',
 	'description' => 'Exibido no rodapé do tema na coluna 3',
 	'before_widget' => '<aside id="%1$s" class="widget %2$s footer-menu">',
@@ -68,7 +68,7 @@ register_sidebar(array(
 	'after_title' => '</h4>'
 ));
 register_sidebar(array(
-	'name' => 'HEELJ Footer 4',
+	'name' => 'Footer 4',
 	'id' => 'heelj-footer-sidebar-4',
 	'description' => 'Exibido no rodapé do tema na coluna 4',
 	'before_widget' => '<aside id="%1$s" class="widget %2$s footer-menu">',
