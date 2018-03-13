@@ -8,7 +8,7 @@
 
 # Theme Features
 
-## CPT - Custom Post Types
+## _Custom Post Types (CPT)_
 
 **Indicadores:** Inclusion of unit indicators (numbers of beds, patients attended, specialties, procedures performed, etc.)
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Shortcodes
+## _Shortcodes_
 
 Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
 
@@ -42,7 +42,7 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 ---
 
-## Page Templates
+## _Page Templates_
 
 **Página de Notícias (_page-blog.php_):** Description..
 
@@ -60,7 +60,7 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 ---
 
-# Required Plugins
+# _Required Plugins_
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.
 
@@ -74,4 +74,4 @@ _[**Slider Revolution:**](https://revolution.themepunch.com)_ Description..
 
 ---
 
-# Other Plugins:
+# _Other Plugins_
