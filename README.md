@@ -24,21 +24,21 @@
 
 Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
 
-**[noticias_home_heelj]** Description..
+**[noticias_home_heelj]:** Description..
 
-**[contato_sidebar]** Description..
+**[contato_sidebar]:** Description..
 
-**[contato_home]** Description..
+**[contato_home]:** Description..
 
-**[servicos_heelj]** Description..
+**[servicos_heelj]:** Description..
 
-**[pesquisa_sidebar]** Description..
+**[pesquisa_sidebar]:** Description..
 
-**[numeros-hospital]** Description..
+**[numeros-hospital]:** Description..
 
-**[indicadores_heelj]** Description..
+**[indicadores_heelj]:** Description..
 
-**[indicadores_sidebar]** Description..
+**[indicadores_sidebar]:** Description..
 
 ---
 
@@ -66,11 +66,11 @@ These are the necessary plugins for the template implementation, with the correc
 
  _[**Bootstrap Shortcodes:**](https://br.wordpress.org/plugins/bootstrap-shortcodes/)_ This is an essential plugin for configuring page layout through the standard wordpress text editor for pages and posts.
 
-_[**Caldera Forms:**](https://br.wordpress.org/plugins/caldera-forms/)_ plugin used in the construction of the standard forms of the template, the forms templates are in the folder (_FOLDER_NAME/forms-template/_)
+_[**Caldera Forms:**](https://br.wordpress.org/plugins/caldera-forms/)_ plugin used in the construction of the standard forms of the template, the forms templates are in the folder: _resources/forms-template/_
 
-_[**Share Buttons by AddThis:**](https://#=link.com)_ Description..
+_[**Share Buttons by AddThis:**](https://br.wordpress.org/plugins/addthis/)_ Add sharing buttons to the end of the posts, this plugin is inserted in the theme through a shortcode in the file: _content.php_
 
-_[**Slider Revolution:**](https://revolution.themepunch.com)_ Description..
+_[**Slider Revolution:**](https://revolution.themepunch.com)_ plugin used in the construction of slides used in the theme, the slides templates are located in the folder: _resources/slider-template/_
 
 ---
 
