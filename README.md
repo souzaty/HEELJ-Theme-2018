@@ -20,6 +20,16 @@
 
 ## Page Templates
 
-**Página de Notícias (_page-blog.php_):** Página de notícias
+**Página de Notícias (_page-blog.php_):** Description..
 
-**Página de Contato (_page-contato.php_):** Página de fale conosco
+**Página de Contato (_page-contato.php_):** Description..
+
+**Página Corpo Clínico (_page-corpo-clinico_):** Description..
+
+**Página Largura completa (_page-full-width.php_):** Description..
+
+**Página Sala de Imprensa (_page-sala-imprensa.php_):** Description..
+
+**Página SAU (page-sau.php_):** Description..
+
+**Página Trabalhe Conosco (_page-trabalhe-conosco.php_):** Description..
