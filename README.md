@@ -18,6 +18,8 @@
 
 **Trabalhe Conosco:** Inclusion of notices for the hiring of new employees
 
+---
+
 ## Shortcodes
 
 Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
@@ -38,6 +40,8 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 **[indicadores_sidebar]** Description..
 
+---
+
 ## Page Templates
 
 **Página de Notícias (_page-blog.php_):** Description..
@@ -54,6 +58,8 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 **Página Trabalhe Conosco (_page-trabalhe-conosco.php_):** Description..
 
+---
+
 # Required Plugins
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.
@@ -65,5 +71,7 @@ _[**Caldera Forms:**](https://br.wordpress.org/plugins/caldera-forms/)_ plugin u
 _[**Share Buttons by AddThis:**](https://#=link.com)_ Description..
 
 _[**Slider Revolution:**](https://revolution.themepunch.com)_ Description..
+
+---
 
 # Other Plugins:
