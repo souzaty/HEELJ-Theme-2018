@@ -58,7 +58,7 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.
 
- _**[Bootstrap Shortcodes:]**(https://br.wordpress.org/plugins/bootstrap-shortcodes/)_ This is an essential plugin for configuring page layout through the standard wordpress text editor for pages and posts.
+ _[**Bootstrap Shortcodes:**](https://br.wordpress.org/plugins/bootstrap-shortcodes/)_ This is an essential plugin for configuring page layout through the standard wordpress text editor for pages and posts.
 
 _**[Caldera Forms:]**(https://br.wordpress.org/plugins/caldera-forms/)_ plugin used in the construction of the standard forms of the template, the forms templates are in the folder (_FOLDER_NAME/forms-template/_)
 
@@ -66,4 +66,4 @@ _**[Share Buttons by AddThis:]**(https://#=link.com)_ Description..
 
 _**[Slider Revolution:]**(https://revolution.themepunch.com)_ Description..
 
- _**[Other Plugins:]**(https://#=link.com)_ Description..
+# Other Plugins:
