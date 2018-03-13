@@ -28,17 +28,27 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 **[contato_sidebar]:** Description..
 
+**[contato_sidebar_mapa]:** Description..
+
+**[contato_sidebar_telefone]:** Description..
+
+**[contato_sidebar_atendimento]:** Description..
+
 **[contato_home]:** Description..
+
+**[contato_home_mapa]:** Description..
+
+**[contato_home_telefone]:** Description..
+
+**[contato_home_atendimento]:** Description..
 
 **[servicos_heelj]:** services provided by the hospital displayed on a bootstrap nav tab with customizable content through _custom post type_ **services**
 
 **[pesquisa_sidebar]:** search field
 
-**[numeros-hospital]:** does not appear in mobile version
+**[indicadores_heelj]:** horizontal table with unit numbers. These indicators are customizable through custom post type indicators. _Does not appear in mobile version_.
 
-**[indicadores_heelj]:** Description..
-
-**[indicadores_sidebar]:** Description..
+**[indicadores_sidebar]:** vertical table with unit numbers that are included in the sidebar area. These indicators are customizable through custom post type indicators.
 
 ---
 
