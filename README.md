@@ -24,15 +24,15 @@
 
 Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
 
-**[noticias_home_heelj]:** Description..
+**[noticias_home_heelj]:** shortcode inserted in the home with the most recent news arranged in 3 columns. It includes: _Post thumbnail, Post title, Post excerpt and button read more_
 
 **[contato_sidebar]:** Description..
 
 **[contato_home]:** Description..
 
-**[servicos_heelj]:** Description..
+**[servicos_heelj]:** services provided by the hospital displayed on a bootstrap nav tab with customizable content through _custom post type_ **services**
 
-**[pesquisa_sidebar]:** Description..
+**[pesquisa_sidebar]:** search field
 
 **[numeros-hospital]:** Description..
 
