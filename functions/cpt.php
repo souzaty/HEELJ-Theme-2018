@@ -141,78 +141,6 @@
  }
  // End CPT Indicadores
 
- // Start CPT Corpo Clínico
- add_action('init', 'corpo_clinico_heelj_register');
- function corpo_clinico_heelj_register() {
- 	$labels = array(
- 		'name' => __('Corpo Cl&iacute;nico HEELJ', 'Tipo de post para incluir os profissionais do HEELJ.'),
- 		'singular_name' => __('Corpo Cl&iacute;nico', 'post type singular name'),
- 		'all_items' => __('Todos profissionais'),
- 		'add_new' => _x('Novo profissional', 'Novo profissional'),
- 		'add_new_item' => __('Add novo item'),
- 		'edit_item' => __('Editar profissional'),
- 		'new_item' => __('Novo profissional Item'),
- 		'view_item' => __('Ver item do profissional'),
- 		'search_items' => __('Procurar profissional'),
- 		'not_found' => __('Nenhum profissional encontrado'),
- 		'not_found_in_trash' => __('Nenhum profissional encontrado na lixeira'),
- 		'parent_item_colon' => ''
- 	);
- 	$args   = array(
- 		'labels' => $labels,
- 		'public' => true,
- 		'publicly_queryable' => true,
- 		'show_ui' => true,
- 		'query_var' => true,
- 		'menu_icon' => 'dashicons-id',
- 		'capability_type' => 'post',
- 		'hierarchical' => false,
- 		'menu_position' => 6,
- 		'taxonomies' => array(
- 			'post_tag'
- 			),
- 		'supports' => array(
- 			'title',
- 			'thumbnail',
- 			'tags'
- 			)
- 	);
- register_post_type('corpo_clinico_heelj', $args);
- 	flush_rewrite_rules();
- }
- register_taxonomy("Especialidades", array(
- 	"corpo_clinico_heelj"
- 	), array(
- 	"hierarchical" => true,
- 	"label" => "Especialidades",
- 	"singular_label" => "edital",
- 	"rewrite" => array(
- 		'slug' => 'edital'
- 		),
- 	"public" => true,
- 	"show_ui" => true,
- 	"_builtin" => true
- 	));
- add_action("admin_init", "campos_personalizados_corpo_clinico_heelj");
- function campos_personalizados_corpo_clinico_heelj() {
- 	add_meta_box("corpo_crm", "Informe o CRM", "corpo_crm", "corpo_clinico_heelj", "normal", "low");
- }
- function corpo_crm() {
- 	global $post;
- 	$custom    = get_post_meta($post->ID);
- 	$corpo_crm = $custom["corpo_crm"][0];
- ?>
- 	<input type="text" name="corpo_crm" value='<?php echo $corpo_crm;
- 	?>' /></p>
- <?php
- }
- add_action('save_post_corpo_clinico_heelj', 'save_details_post_corpo_clinico_heelj');
- function save_details_post_corpo_clinico_heelj() {
- 	global $post;
- 	update_post_meta($post->ID, "corpo_crm", $_POST["corpo_crm"]);
- }
- // End CPT Corpo Clínico
-
  // Start CPT Serviços
  add_action('init', 'servicos_heelj');
  function servicos_heelj() {
@@ -313,6 +241,78 @@
  	update_post_meta($post->ID, "link_info_servico_heelj", $_POST["link_info_servico_heelj"]);
  }
  // End CPT Serviços
+
+ // Start CPT Corpo Clínico
+ add_action('init', 'corpo_clinico_heelj_register');
+ function corpo_clinico_heelj_register() {
+ 	$labels = array(
+ 		'name' => __('Corpo Cl&iacute;nico HEELJ', 'Tipo de post para incluir os profissionais do HEELJ.'),
+ 		'singular_name' => __('Corpo Cl&iacute;nico', 'post type singular name'),
+ 		'all_items' => __('Todos profissionais'),
+ 		'add_new' => _x('Novo profissional', 'Novo profissional'),
+ 		'add_new_item' => __('Add novo item'),
+ 		'edit_item' => __('Editar profissional'),
+ 		'new_item' => __('Novo profissional Item'),
+ 		'view_item' => __('Ver item do profissional'),
+ 		'search_items' => __('Procurar profissional'),
+ 		'not_found' => __('Nenhum profissional encontrado'),
+ 		'not_found_in_trash' => __('Nenhum profissional encontrado na lixeira'),
+ 		'parent_item_colon' => ''
+ 	);
+ 	$args   = array(
+ 		'labels' => $labels,
+ 		'public' => true,
+ 		'publicly_queryable' => true,
+ 		'show_ui' => true,
+ 		'query_var' => true,
+ 		'menu_icon' => 'dashicons-id',
+ 		'capability_type' => 'post',
+ 		'hierarchical' => false,
+ 		'menu_position' => 6,
+ 		'taxonomies' => array(
+ 			'post_tag'
+ 			),
+ 		'supports' => array(
+ 			'title',
+ 			'thumbnail',
+ 			'tags'
+ 			)
+ 	);
+ register_post_type('corpo_clinico_heelj', $args);
+ 	flush_rewrite_rules();
+ }
+ register_taxonomy("Especialidades", array(
+ 	"corpo_clinico_heelj"
+ 	), array(
+ 	"hierarchical" => true,
+ 	"label" => "Especialidades",
+ 	"singular_label" => "edital",
+ 	"rewrite" => array(
+ 		'slug' => 'edital'
+ 		),
+ 	"public" => true,
+ 	"show_ui" => true,
+ 	"_builtin" => true
+ 	));
+ add_action("admin_init", "campos_personalizados_corpo_clinico_heelj");
+ function campos_personalizados_corpo_clinico_heelj() {
+ 	add_meta_box("corpo_crm", "Informe o CRM", "corpo_crm", "corpo_clinico_heelj", "normal", "low");
+ }
+ function corpo_crm() {
+ 	global $post;
+ 	$custom    = get_post_meta($post->ID);
+ 	$corpo_crm = $custom["corpo_crm"][0];
+ ?>
+ 	<input type="text" name="corpo_crm" value='<?php echo $corpo_crm;
+ 	?>' /></p>
+ <?php
+ }
+ add_action('save_post_corpo_clinico_heelj', 'save_details_post_corpo_clinico_heelj');
+ function save_details_post_corpo_clinico_heelj() {
+ 	global $post;
+ 	update_post_meta($post->ID, "corpo_crm", $_POST["corpo_crm"]);
+ }
+ // End CPT Corpo Clínico
 
 // Start CPT Trabalhe Conosco
 add_action('init', 'trabalhe_register');
