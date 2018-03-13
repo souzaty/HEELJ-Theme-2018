@@ -58,10 +58,12 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 These are the necessary plugins for the template implementation, with the correct configuration of the layout.
 
-## Bootstrap Shortcodes
+**[Bootstrap Shortcodes](https://br.wordpress.org/plugins/bootstrap-shortcodes/):** - _[Wordpress Plugin Page](https://br.wordpress.org/plugins/bootstrap-shortcodes/)_ This is an essential plugin for configuring page layout through the standard wordpress text editor for pages and posts.
 
-## Caldera Formats
+**Caldera Formats** _[Wordpress Plugin Page](https://br.wordpress.org/plugins/bootstrap-shortcodes/)_
 
 ## Share Buttons by AddThis
 
 ## Slider Revolution
+
+# Other Plugins
