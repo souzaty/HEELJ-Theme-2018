@@ -2,6 +2,8 @@
 
 ## Wordpress Theme for _Hospital Estadual de Pirenópolis Ernestina Lopes Jaime_
 
+HEELJ-Theme-2018 is a wordpress template created by the agency [SMART7 Digital] (http://smart7.com.br) to attend the Hospital Estadual de Pirenópolis Ernestina Lopes Jaime (HEELJ), which is under the management of [IBGH (Instituto Brasileiro de Gestão Hospitalar)](http://ibgh.org.br).
+
 **version:** 1.0
 
 ------
