@@ -1,5 +1,10 @@
 <?php
-/* Template Name: Category PHP */ 
+/** Template Name: Category PHP
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 ?>
 <?php
 	global $post;

@@ -1,5 +1,10 @@
 <?php
-    /*Template Name: Erro 404	*/
+/** Template Name: Erro 404
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 ?>
 <div id="pagina-interna-heelj" style="height:auto;">
     <?php get_header(); ?>

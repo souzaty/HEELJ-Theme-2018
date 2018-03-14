@@ -1,5 +1,10 @@
 <?php
-    /* Template Name: Página Sala de Imprensa */
+/** Template Name: Página Sala de Imprensa
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 ?>
 <div id="pagina-interna-heelj">
 	<?php get_header(); ?>

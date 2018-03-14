@@ -1,5 +1,10 @@
 <?php
-    /* Template Name: Página de Contato */
+/** Template Name: Página de Contato
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 ?>
 <div id="pagina-interna-heelj">
 	<?php get_header(); ?>

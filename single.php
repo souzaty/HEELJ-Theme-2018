@@ -1,9 +1,10 @@
 <?php
 /**
- * @package WordPress
- * @subpackage IBGH
- * @since IBGH 1.0
- */
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 get_header(); ?>
 <?php
 include 'content.php';
