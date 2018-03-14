@@ -1,9 +1,10 @@
 <?php
 /** Theme Custom Post Types
- * @package WordPress
- * @subpackage HEELJ
- * @since HEELJ 1.0 Beta
- */
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 
  // Start  CPT Indicadores
  add_action('init', 'indicadores_ibgh');

@@ -1,10 +1,10 @@
 <?php
-/** HEELJ Theme Functions
- * @package WordPress
- * @subpackage HEELJ
- * @since HEELJ 1.0 Beta
- */
-
+/** Theme Functions
+*
+* @package WordPress
+* @subpackage HEELJ
+* @since HEELJ 1.0
+*/
 
 // Start Widgets
 register_sidebar(array(
