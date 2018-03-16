@@ -14,7 +14,7 @@ function noticias_home_short($atts) { ob_start(); ?>
 			<?php
 				global $post;
 				$wp_query = new WP_Query();
-				$wp_query->query('post_type=post&cat=heelj&posts_per_page=3&orderby=date&order=DESC');
+				$wp_query->query('post_type=post&category_name=heelj&posts_per_page=3&orderby=date&order=DESC');
 				$count = 0;
 			?>
 			<?php
