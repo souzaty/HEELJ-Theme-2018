@@ -188,7 +188,7 @@ add_shortcode("contato_home_atendimento", "contato_home_atendimento_short");
 // **
 // **
 // Start Shortcode Serviços
-function servicos_heelj_short($atts) {
+function servicos_short($atts) {
 	ob_start();
 ?>
 <!-- Section serviços -->
@@ -304,7 +304,7 @@ function servicos_heelj_short($atts) {
 				ob_end_clean();
 				return $content;
 }
-add_shortcode('servicos_heelj', 'servicos_heelj_short');
+add_shortcode('servicos', 'servicos_short');
 // End Shortcode Serviços
 // **
 // **
@@ -339,7 +339,7 @@ add_shortcode('pesquisa_sidebar', 'pesquisa_sidebar_');
 // **
 // **
 // Start Shortcode Indicadores
-function indicadores_heelj_short($atts) {
+function indicadores_short($atts) {
 	ob_start();
 ?>
 <section id="numeros-hospital">
@@ -532,7 +532,7 @@ function indicadores_heelj_short($atts) {
 				ob_end_clean();
 				return $content;
 			}
-add_shortcode('indicadores_heelj', 'indicadores_heelj_short');
+add_shortcode('indicadores', 'indicadores_short');
 // End Shortcode Indicadores
 // **
 // **
