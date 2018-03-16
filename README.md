@@ -2,7 +2,7 @@
 
 ## Wordpress Theme for _Hospital Estadual de Pirenópolis Ernestina Lopes Jaime_
 
-HEELJ-Theme-2018 is a wordpress template created by the agency [SMART7 Digital] (http://smart7.com.br) to attend the Hospital Estadual de Pirenópolis Ernestina Lopes Jaime (HEELJ), which is under the management of [IBGH (Instituto Brasileiro de Gestão Hospitalar)](http://ibgh.org.br).
+HEELJ-Theme-2018 é um tema wordpress desenvolvido pala agência [SMART7 Digital] (http://smart7.com.br) para atender o Hospital Estadual de Pirenópolis Ernestina Lopes Jaime (HEELJ), que está sob a gestão do [Instituto Brasileiro de Gestão Hospitalar (IBGH)](http://ibgh.org.br).
 
 **version:** 1.0
 
@@ -12,21 +12,21 @@ HEELJ-Theme-2018 is a wordpress template created by the agency [SMART7 Digital] 
 
 ## _Custom Post Types (CPT)_
 
-**Indicadores:** Inclusion of unit indicators (numbers of beds, patients attended, specialties, procedures performed, etc.)
+**Indicadores:** Inclusão de 6 indicadores do hospital através de campos personalizados. Indicadores recomendados: número de leitos, paciente atendidos, procedimentos realizados, especialidades, colaboradores e horário de funcionamento.
 
-**Corpo Clínico:** Inclusion of the medical staff of the Hospital (Come, specialty and CRM)
+**Corpo Clínico:** Registro de médicos do hospital, campos disponíveis: nome, foto, especialidade e CRM.
 
-**Serviços:** Inclusion of all medical specialties available in the hospital
+**Serviços:** Inclusão de especialidades médicas disponíveis no hospital
 
-**Trabalhe Conosco:** Inclusion of notices for the hiring of new employees
+**Trabalhe Conosco:** Inclusão de informações para contratação de novos colaboradores
 
 ---
 
 ## _Shortcodes_
 
-Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
+Lista de shortcode desenvolvidos para o tema, estes shortcodes estão localizados em: _functions/shortcodes.php_
 
-**[noticias_home]:** shortcode inserted in the home with the most recent news arranged in 3 columns. It includes: _Post thumbnail, Post title, Post excerpt and button read more_
+**[noticias_home]:** shortcode inserido na home exibi os 3 últimos posts (notícias), dispostos em um layout de 3 colunas. Cada post é exibbido com: _Post thumbnail, Post title, Post excerpt and button read more_
 
 **[contato_sidebar]:** Description..
 
@@ -44,13 +44,13 @@ Shortcodes developed for the template, these shortcodes are located in: _functio
 
 **[contato_home_atendimento]:** Description..
 
-**[servicos_heelj]:** services provided by the hospital displayed on a bootstrap nav tab with customizable content through _custom post type_ **services**
+**[servicos]:** especialidades médicas disponíveis no hospital. Estas especialidades são exibidas em formata do _Nav tabs_ do bootstrap, personalizáveis através do _**custom post type servicos**_
 
-**[pesquisa_sidebar]:** search field
+**[pesquisa_sidebar]:** barra de pesquisa personalizada para o tema.
 
-**[indicadores_heelj]:** horizontal table with unit numbers. These indicators are customizable through custom post type indicators. _Does not appear in mobile version_.
+**[indicadores]:** Tabela horizontal com os dados de indicadores da unidade. Estes indicadores são customizados através custom post type indicadores. _este shortcode não é exibido na versão mobile_.
 
-**[indicadores_sidebar]:** vertical table with unit numbers that are included in the sidebar area. These indicators are customizable through custom post type indicators.
+**[indicadores_sidebar]:** Tabela vertical com os dados de indicadores do hospital. Este shortcode deve ser colocado na área de sidebar e suas informações podem ser editadas através _**custom post type indicadores**_
 
 ---
 
