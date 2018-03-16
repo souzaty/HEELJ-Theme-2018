@@ -7,7 +7,7 @@
 */
 
  // Start Shortcode Notícias Home
-function noticias_home_heelj_short($atts) { ob_start(); ?>
+function noticias_home_short($atts) { ob_start(); ?>
 <section id="noticias">
 	<div class="container">
 		<div class="row">
@@ -46,7 +46,7 @@ function noticias_home_heelj_short($atts) { ob_start(); ?>
 		ob_end_clean();
 		return $content;
 }
-add_shortcode('noticias_home_heelj', 'noticias_home_heelj_short');
+add_shortcode('noticias_home', 'noticias_home_short');
 // End Shortcode Notícias Home
 // **
 // **

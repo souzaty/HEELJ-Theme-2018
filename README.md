@@ -26,7 +26,7 @@ HEELJ-Theme-2018 is a wordpress template created by the agency [SMART7 Digital] 
 
 Shortcodes developed for the template, these shortcodes are located in: _functions/shortcodes.php_
 
-**[noticias_home_heelj]:** shortcode inserted in the home with the most recent news arranged in 3 columns. It includes: _Post thumbnail, Post title, Post excerpt and button read more_
+**[noticias_home]:** shortcode inserted in the home with the most recent news arranged in 3 columns. It includes: _Post thumbnail, Post title, Post excerpt and button read more_
 
 **[contato_sidebar]:** Description..
 
